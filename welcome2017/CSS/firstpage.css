@@ -1,0 +1,811 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    min-width: 1000px;
+    font-size: 1em;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+nav {
+    margin: 0 auto;
+    position: relative;
+    height: 4.875em;
+    background-color: #ffffff;
+    width: 1000px;
+}
+
+
+nav img {
+    margin-top: 1.375em;
+}
+
+#navs {
+    float: right;
+}
+
+
+
+#navs ul {
+    height: 4.875em;
+    list-style: none;
+    float: right;
+    margin-left: 3.5em;
+}
+
+#navs li {
+    float: left;
+    font-size: 1.25em;
+    text-align: center;
+    height: 58px;
+    width: 100px;
+    padding-top: 20px;
+}
+
+#navs a {
+    text-decoration: none;
+    color: #343434;
+}
+
+
+
+main {
+    margin: 0 auto;
+    background-image: url(../img/backimg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 1920px;
+    z-index: -1;
+    overflow: hidden;
+    position: relative;
+}
+
+main .road {
+    background-image: url(../img/road.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 270px;
+    height: 4800px;
+    position: relative;
+    margin-top: 50px;
+    animation: roadmove 1s steps(20) 1;
+}
+
+
+#contain {
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+
+#banner .title {
+    margin: 0 auto;
+    position: relative;
+    margin-left: 2.25em;
+    margin-top: 1em;
+}
+
+
+#banner {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 620px;
+}
+
+
+#banner .people1 {
+    margin-top: 5.75em;
+    margin-left: 3.125em;
+}
+
+
+
+#banner .people2 {
+    margin-left: 47.125em;
+    margin-top: 70px;
+}
+
+.button {
+    width: 192px;
+    height: 78px;
+}
+
+.button p {
+    margin-top: -62px;
+    margin-left: 68px;
+    color: #ffffff;
+}
+
+#part1 {
+    margin: 0 auto;
+    position: relative;
+    margin-top: -170px;
+}
+
+#part1 .maptitle {
+    /* margin: 0 auto; */
+    margin-top: 200px;
+    position: relative;
+    display: block;
+}
+
+#part2 {
+    margin: 0 auto;
+}
+
+#part2 .junxuntitle {
+    display: block;
+    /* margin:0 auto; */
+}
+
+#part2 .main {
+    width: 72.5em;
+    background-image: url(../img/border2.png);
+    height: 41.25em;
+    background-repeat: no-repeat;
+    margin-left: -6.85em;
+    margin-top: -1.25em;
+}
+
+.photo {
+    margin-left: 9.75em;
+}
+
+#part2 .words {
+    width: 71.25em;
+    margin-left: 15.875em;
+    font-size: 0.75em;
+    color: #696a62;
+    margin-top: 1.125em;
+    line-height: 2.15em;
+}
+
+.photo img {
+    margin-top: 8.375em;
+    margin-left: 1.875em;
+}
+
+.button1 {
+
+    margin-left: 53.75em;
+    margin-top: 2.125em;
+
+    background: url(../img/button.png) no-repeat;
+
+}
+
+#part2 a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 4.375em;
+    display: inline-block;
+    margin-top: 1.125em;
+}
+
+#part3 {
+    margin: 0 auto;
+    position: relative;
+}
+
+#part3 .titleline1 {
+    /* margin-left: 120px; */
+    margin-top: 5em;
+}
+
+
+#part3 .mathtitle {
+    /* margin-left: 15.625em; */
+}
+
+#part3 .one {
+    margin: 0 auto;
+    position: relative;
+}
+
+#part3 .border {
+    margin-left: -6.375em;
+    margin-top: -5.625em;
+    z-index: -1;
+}
+
+#part3 .block1 {
+    height: 26.125em;
+    width: 29.875em;
+    z-index: 1;
+    margin-top: -31.25em;
+    margin-left: 5.025em;
+}
+
+#part3 .block1 .p1 {
+    margin-left: 5.625em;
+    margin-top: -0.625em;
+}
+
+#part3 .block1 .words {
+    font-size: 0.75em;
+    color: #696a62;
+    width: 29.875em;
+    line-height: 2.15em;
+    margin-top: 0.625em;
+}
+
+#part3 .button2 {
+    margin-top: 26px;
+    margin-left: 74px;
+}
+
+#part3 .block2 {
+    height: 26.125em;
+    width: 25.375em;
+    z-index: 1;
+    margin-top: -31.25em;
+    margin-left: 37em;
+}
+
+#part3 .block2 .p2 {
+    margin-left: 6.875em;
+    margin-top: 4.5em;
+}
+
+#part3 .block2 .words {
+    font-size: 0.75em;
+    color: #696a62;
+    width: 29.875em;
+    line-height: 2.15em;
+    margin-top: 0.625em;
+}
+
+#part3 .titleline2 {
+    margin-left: 120px;
+    margin-top: 8.325em;
+}
+
+#part3 .ustitle {
+    /* margin-left: 15.625em; */
+}
+
+#part3 .border {
+    z-index: -1;
+    margin-left: -6.375em;
+    margin-top: -5.625em;
+}
+
+#part3 .block3 {
+    height: 26.125em;
+    width: 25.375em;
+    z-index: 1;
+    margin-top: -31.25em;
+    margin-left: 5.025em;
+}
+
+#part3 .block3 .p3 {
+    margin-left: 5.625em;
+    margin-top: -0.625em;
+}
+
+#part3 .block3 .words {
+    font-size: 0.75em;
+    color: #696a62;
+    width: 29.875em;
+    line-height: 2.15em;
+    margin-top: 0.625em;
+}
+
+#part3 .button3 {
+    margin-left: 5.875em;
+    margin-top: 26px;
+}
+
+
+#part3 .block4 {
+    height: 26.125em;
+    width: 25.375em;
+    z-index: 1;
+    margin-top: -31.25em;
+    margin-left: 37em;
+}
+
+#part3 .block4 .p4 {
+    margin-left: 6.875em;
+    margin-top: 4.5em;
+}
+
+#part3 .block4 .words {
+    font-size: 0.75em;
+    color: #696a62;
+    width: 29.875em;
+    line-height: 2.15em;
+    margin-top: 0.625em;
+}
+
+#part3 .button4 {
+    width: 12em;
+    margin-left: 4.375em;
+}
+
+#part4 {
+    margin: 0 auto;
+    position: relative;
+}
+
+#part4 .main {
+    margin: 0 auto;
+    position: relative;
+    margin-left: -100px;
+}
+
+#part4 .newtitle {
+    /* margin: 0 auto; */
+    margin-top: 15em;
+    display: block;
+}
+
+
+#part4 .border {
+    z-index: -1;
+}
+
+#part4 .block1 {
+    z-index: 1;
+    width: 53.125em;
+    margin-top: -20em;
+    margin-left: 10.25em;
+}
+
+#part4 .block1 .p1 {
+    margin-left: 0.625em;
+    margin-top: 0.625em;
+}
+
+#part4 .block1 .words {
+    margin-left: 22.5em;
+    margin-top: -13.625em;
+    width: 49.5em;
+    font-size: 0.75em;
+    color: #696a62;
+    line-height: 2.15em;
+}
+
+#part4 .button5 {
+    margin-left: 660px;
+    margin-top: 38px;
+}
+
+#part4 .two {
+    margin-top: 5.75em;
+}
+
+#part4 .block2 {
+    z-index: 1;
+    width: 53.125em;
+    margin-top: -20em;
+    margin-left: 10.25em;
+}
+
+#part4 .block2 .p2 {
+    margin-left: 0.625em;
+    margin-top: 0.625em;
+}
+
+#part4 .block2 .words {
+    margin-left: 22.5em;
+    margin-top: -13.625em;
+    width: 49.5em;
+    font-size: 0.75em;
+    color: #696a62;
+    line-height: 2.15em;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #d2f4aa;
+    color: #7fb63a;
+    height: 12.75em;
+
+    padding-top: 2.125em;
+}
+
+footer p {
+    margin-top: 1.375em;
+}
+
+.boxes {
+    width: 209px;
+    height: 345px;
+    position: fixed;
+    top: 40%;
+    z-index: 999;
+}
+
+@keyframes floats {
+    0% {
+        margin-top: 0;
+    }
+    40% {
+        margin-top: 30px;
+    }
+    60% {
+        margin-top: 40px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+.boxes img {
+    animation: floats 5s infinite;
+}
+
+@keyframes chase {
+    0% {
+        height: 358px;
+    }
+    3% {
+        height: 320px;
+    }
+    6% {
+        height: 358px;
+    }
+    9% {
+        height: 328px;
+    }
+    12% {
+        height: 358px;
+    }
+    100% {
+        height: 358px;
+    }
+}
+
+.remaintime-container {
+    width: 750px;
+    height: 850px;
+    margin-left: 200px;
+
+
+    position: relative;
+    background: url(../img/car.png) no-repeat;
+    background-position: 0 300px;
+    animation: cardrop 1s 1;
+}
+
+.num-container {
+    width: 425px;
+    height: 90px;
+    position: absolute;
+    top: 390px;
+    left: 70px;
+}
+
+.nums {
+    width: 27px;
+    height: 38px;
+    background: url(../img/nums.png);
+    transition: .3s;
+    overflow: hidden;
+    position: absolute;
+}
+
+.tens {
+    background: url(../img/nums-2.png);
+}
+
+#day-ten {
+    top: 13px;
+    left: 10px;
+}
+
+#day-one {
+    top: 16px;
+    left: 37px;
+}
+
+#hour-ten {
+    top: 20px;
+    left: 123px;
+}
+
+#hour-one {
+    top: 23px;
+    left: 150px;
+}
+
+#min-ten {
+    top: 30px;
+    left: 239px;
+}
+
+#min-one {
+    top: 33px;
+    left: 266px;
+}
+
+#sec-ten {
+    top: 35px;
+    left: 358px;
+}
+
+#sec-one {
+    top: 38px;
+    left: 385px;
+}
+
+.chasedream {
+    width: 635px;
+    height: 358px;
+    position: absolute;
+    animation: titlegrow 2s 1;
+
+    left: 30px;
+}
+
+.chasedream img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    animation: chase 5s infinite;
+
+    animation-delay: 3.2s;
+    bottom: 0px;
+    position: absolute;
+}
+
+@keyframes cardrop {
+    0% {
+        bottom: 700px;
+    }
+    50% {
+        bottom: 700px;
+    }
+    60% {
+        bottom: 600px;
+    }
+    70% {
+        bottom: 450px;
+    }
+    80% {
+        bottom: 250px;
+    }
+    87% {
+        bottom: 0px;
+    }
+    94% {
+        bottom: 80px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+@keyframes titlegrow {
+    0% {
+        width: 0px
+    }
+    70% {
+        width: 0px
+    }
+    80% {
+        width: 635px
+    }
+    94% {
+        width: 605px;
+    }
+    100% {
+        width: 635px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mapWrapper {
+    width: 1200px;
+    height: 750px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background-position: 0;
+    margin-left: -70px;
+    margin-bottom: 150px;
+    margin-top: -150px;
+}
+
+.mapImg {
+    width: 910px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 190px;
+    overflow: hidden;
+    /* -webkit-mask: url(../imgs/border.png) no-repeat 0 0; */
+    /* background: url(../imgs/mapBorder_1.png) no-repeat; */
+}
+
+.mapWrapper img.map {
+    width: 1200px;
+    height: 444px;
+    display: inline-block;
+    transition: width 1s, height 1s;
+}
+
+.cover {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.mapWrapper button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: lightblue;
+    opacity: 0.7;
+    list-style-type: none;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+}
+
+.mapWrapper button:hover {
+    background-color: lightgreen;
+
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+.mapWrapper button:active {
+    width: 48px;
+    height: 48px;
+}
+
+.mapWrapper button.add {
+    color: blue;
+    left: 860px;
+    top: 440px;
+}
+
+.mapWrapper button.less {
+    color: orange;
+    left: 860px;
+    top: 500px;
+}
+
+.person_1 {
+    position: absolute;
+    top: -900px;
+    left: -600px;
+    transition: top 2s, left 2s;
+}
+
+
+.midTitle {
+    margin-left: -800px;
+    transition: margin-left 1s;
+}
+
+.leftTitle {
+    margin-left: -900px;
+    transition: margin-left 1s;
+    margin-bottom: -140px;
+}
+
+.rightTitle {
+    margin-left: 1450px;
+    transition: margin-left 1s;
+}
+
+/* 按钮特效 */
+/* .buttonStyle{
+    cursor: pointer;
+
+    background: url(../img/button.png) no-repeat;
+    height: 4.875em;
+    width: 12em;
+    text-align: center;
+    line-height: 4.0em;
+    color: white;
+} */
+
+
+
+/* #part2 .buttonStyle:hover{
+    width: 300px;
+}
+
+#ls{
+    width: 300px;
+}
+ */
+
+
+.leftmountains {
+    width: 960px;
+    height: 1000px;
+    background: url(../img/mountainleft.png) no-repeat;
+    background-position: 0 100px;
+    position: absolute;
+    margin-top: 50px;
+    animation: leftmountainmove 1.5s 1;
+}
+
+.rightmountains {
+    width: 960px;
+    height: 1000px;
+    margin-top: 50px;
+    background: url(../img/mountainright.png) no-repeat;
+    background-position: 0 100px;
+    position: absolute;
+    right: -60px;
+    animation: rightmountainmove 1.5s 1;
+}
+
+@keyframes leftmountainmove {
+    0% {
+        left: -960px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes rightmountainmove {
+    0% {
+        right: -960px;
+    }
+    100% {
+        right: -60px;
+    }
+}
+
+@keyframes roadmove {
+    0% {
+        top: 200px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes birdfly {
+    0% {
+        right: -20px;
+        top: 0px;
+    }
+    100% {
+        right: 310px;
+        top: 38px;
+    }
+}
+
+.flyingbird {
+    width: 170px;
+    height: 44px;
+    position: absolute;
+    top: 38px;
+    right: 310px;
+    background: url(../img/bird.png);
+    animation: birdfly 2.5s 1;
+}
