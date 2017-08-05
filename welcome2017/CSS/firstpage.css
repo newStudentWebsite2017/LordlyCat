@@ -858,8 +858,10 @@ footer p {
     width: 280px;
     height: 260px;
     position: fixed;
-    top: 57%;
+    top: 52%;
     right: 2%;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
     cursor: pointer;
 }

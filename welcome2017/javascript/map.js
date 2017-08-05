@@ -203,12 +203,14 @@ var wheel = function(e) {
         if (window.pageYOffset >= 1800) {
             leftTitle[0].style.marginLeft = '110px';
             rightTitle[0].style.marginLeft = '650px';
-
-            backTop.style.display = 'block';
+            backTop.style.visibility = 'visible';
+            
+            backTop.style.opacity = 1;
         }
         if (window.pageYOffset <= 1800) {
-
-            backTop.style.display = 'none';
+            backTop.style.visibility = 'hidden';
+            
+            backTop.style.opacity = 0;
         }
         if (window.pageYOffset >= 2400) {
             leftTitle[1].style.marginLeft = '0px';
