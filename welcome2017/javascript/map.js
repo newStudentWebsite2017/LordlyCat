@@ -182,19 +182,33 @@ drift();
 var midTitle = document.querySelectorAll('.midTitle');
 var leftTitle = document.querySelectorAll('.leftTitle');
 var rightTitle = document.querySelectorAll('.rightTitle');
+var boxes = document.querySelectorAll('.boxes');
+var backTop = document.querySelector('.backTop');
 
 midTitle[0].style.marginLeft = '380px';
 
-var wheel = function (e) {
+var wheel = function(e) {
     e = e || window.event;
 
     if (e.wheelDelta || e.detail) {
+        if (window.pageYOffset >= 300) {
+            boxes[0].style.top = boxes[1].style.top = "8%";
+        }
+        if (window.pageYOffset < 300) {
+            boxes[0].style.top = boxes[1].style.top = "40%";
+        }
         if (window.pageYOffset >= 800) {
             midTitle[1].style.marginLeft = '380px';
         }
         if (window.pageYOffset >= 1800) {
             leftTitle[0].style.marginLeft = '110px';
             rightTitle[0].style.marginLeft = '650px';
+
+            backTop.style.display = 'block';
+        }
+        if (window.pageYOffset <= 1800) {
+
+            backTop.style.display = 'none';
         }
         if (window.pageYOffset >= 2400) {
             leftTitle[1].style.marginLeft = '0px';
@@ -205,15 +219,30 @@ var wheel = function (e) {
         }
 
 
-        console.log(window.pageYOffset);
+        //console.log(window.pageYOffset);
     }
 
 }
 
 //给页面绑定滑轮滚动事件  
-if (document.addEventListener) {//firefox  
+if (document.addEventListener) { //firefox  
     document.addEventListener('DOMMouseScroll', wheel, false);
-}  
+}
 
 //滚动滑轮触发scrollFunc方法  //ie 谷歌  
 window.onmousewheel = document.onmousewheel = wheel;
+
+
+//返回顶部
+function back() {
+    var h = document.body.scrollTop;
+
+    if (h >= 1) {
+        document.body.scrollTop = h - 100;
+        backTop.style.display = 'none';
+
+        setTimeout(back, 10);
+    }
+}
+
+backTop.addEventListener('click', back, false);

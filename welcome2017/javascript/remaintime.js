@@ -32,8 +32,8 @@ function CalculateRemainTime() {
     hour = Math.floor((remain-day*1000*3600*24)/3600/1000);
     min = Math.floor((remain - day*1000*3600*24 - hour*3600*1000)/1000/60);
     sec = Math.floor((remain - day*1000*3600*24 - hour*3600*1000 - min*1000*60)/1000);
-    /*var test = '离开学还有'+day+'天'+hour+'小时'+min+'分'+sec+'秒';
-    console.log(test);*/
+    //var test = '离开学还有'+day+'天'+hour+'小时'+min+'分'+sec+'秒';
+    //console.log(test);
 }
 
 
