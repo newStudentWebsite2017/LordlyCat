@@ -241,7 +241,7 @@ function back() {
 
     if (h >= 1) {
         document.body.scrollTop = h - 100;
-        backTop.style.display = 'none';
+        backTop.style.visibility = 'hidden';
 
         setTimeout(back, 10);
     }

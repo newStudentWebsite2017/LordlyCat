@@ -1,0 +1,134 @@
+/*取消多余动画*/
+.remaintime-container{
+    animation: cardrop  1s  0;
+}
+.chasedream{
+    animation: titlegrow 2s  0;
+}
+.flyingbird{
+    animation: birdfly 2.5s 0;
+}
+.leftmountains{
+    animation: leftmountainmove 1.5s  0;
+}
+.rightmountains{
+    animation: rightmountainmove 1.5s  0;
+}
+main .road{
+    animation: roadmove 1s  0;
+}
+/*主布局*/
+.navs ul li:nth-child(1){
+    background: #fff;
+}
+.navs ul li:nth-child(2){
+    background: #a4f087;
+    height: 78px;
+}
+main .road{
+    background-image: url(../img/road-military.png);
+    height: 2160px;
+}
+.content-container{
+    width: 1220px;
+    height: 1440px;
+    margin: 0 auto;
+    margin-top: 55px;
+    position: relative;
+    
+}
+.junxuntitle{
+    background: url(../img/junxuntitle.png) no-repeat center;
+    width: 262px;
+    height: 136px;
+    margin: 0 auto;
+}
+.militarytrain-container{
+    width: 100%;
+    height: 1240px;
+    margin: 0 auto;
+    background: url(../img/shell.png) center;
+    overflow: hidden;
+}
+.train-titles-container{
+    height: 92px;
+    width: 990px;
+    margin-left: 126px;
+    margin-top: 50px;
+
+
+}
+.train-titles{
+    width: 215px;
+    height: 92px;
+    margin-right:26px;
+    background: url(../img/military-title.png);
+    float: left;
+    cursor:pointer; 
+}
+.train-titles:nth-child(1){
+    margin-left: 26px;
+}
+.train-titles-clicked{
+    background: url(../img/military-title-clicked.png);
+}
+.train-titlest1{
+    width: 200px;
+    margin:0 auto;
+    margin-left: 12.5px;
+    font-size:26px;
+    line-height: 82px;
+    color: #fe9d2f;
+    font-style:normal;
+    text-align: center;
+
+}
+.titlest1-clicked{
+    color: #fff;
+}
+.inshell-container{
+    width: 960px;
+    height: 1000px;
+    margin-left: 150px;
+    margin-top: 5px;
+    background: url(../img/inshell.png) no-repeat;
+    position: relative;
+    
+}
+.inshell-pointer img{
+    margin-top: 5px;
+    margin-left: 85px;
+}
+.videoplayer-container {
+    width: 864px;
+    height: 770px;
+    left: 48px;
+    top: 99px;
+    background: #233;
+    position: absolute;
+
+}
+.troopshow-container{
+    width: 864px;
+    height: 890px;
+    left: 48px;
+    top: 55px;
+    position: absolute;
+    background: #66ccff;
+    visibility: hidden;
+}
+.traintips-container{
+    background: red;
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+}
+.songrecommand-container{
+    background: blue;
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.t2blocks{
+    transition: .3s;
+}
