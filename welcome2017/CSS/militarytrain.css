@@ -21,6 +21,9 @@ main .road{
 .navs ul li:nth-child(1){
     background: #fff;
 }
+.navs ul li:nth-child(1):hover{
+    background: #a4f087;
+}
 .navs ul li:nth-child(2){
     background: #a4f087;
     height: 78px;
@@ -81,6 +84,7 @@ main .road{
     color: #fe9d2f;
     font-style:normal;
     text-align: center;
+    font-family: 微软雅黑;
 
 }
 .titlest1-clicked{
@@ -98,6 +102,7 @@ main .road{
 .inshell-pointer img{
     margin-top: 5px;
     margin-left: 85px;
+    transition: .5s ease;
 }
 .videoplayer-container {
     width: 864px;
@@ -106,6 +111,7 @@ main .road{
     top: 99px;
     background: #233;
     position: absolute;
+
 
 }
 .troopshow-container{
@@ -118,10 +124,15 @@ main .road{
     visibility: hidden;
 }
 .traintips-container{
-    background: red;
+    
     visibility: hidden;
-    width: 100px;
-    height: 100px;
+    width: 760px;
+    left: 100px;
+    top:46px;
+    position: absolute;
+
+
+
 }
 .songrecommand-container{
     background: blue;
@@ -131,4 +142,87 @@ main .road{
 }
 .t2blocks{
     transition: .3s;
+}
+.titlest2-container{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.titlest2{
+    width: 90px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 46px;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    color: #50b102;
+    margin: 0 80px ;
+}
+.titlest2:nth-child(1){
+    margin-left: 90px;
+}
+.titlest2-clicked{
+    color: #ff8d13;
+}
+
+.traintips-roller{
+    width: 85px;
+    height: 6px;
+    border-radius: 3px;
+    background: #ff8d13;
+    position: absolute;
+    transition: .3s;
+    left: 93px;
+}
+.traintips-main-container{
+    width: 840px;
+    height: 800px;
+    margin-top: 20px;
+    overflow: scroll;
+    transform: rotate(-1deg);
+
+}
+.traintips-main-container .fa{
+    transform: rotate(0.9deg);
+    margin-left: 5px;
+    word-break: break-all;
+
+}
+
+
+.traintips-main-container::-webkit-scrollbar{
+    width: 12px;
+    height: 0;
+
+    
+}
+.traintips-main-container::-webkit-scrollbar-button{
+    display: none;
+}
+.traintips-main-container::-webkit-scrollbar-track{
+    background: url(../img/scroller-outtrack.png) no-repeat;
+    background-size: 100% 100%;
+    
+}
+.traintips-main-container::-webkit-scrollbar-track-piece{
+    display: none;
+}
+
+.traintips-main-container::-webkit-scrollbar-thumb  {
+    background: url(../img/scroller-insidetrack.png) no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
+.traintips-main-container::-webkit-scrollbar-corner {
+    display: none;
+}
+.traintips-main-container::-webkit-resizer  {
+    display: none;
+}
+.traintips-main-container p{
+    font-size: 100px;
+    line-height: 100px;
 }
