@@ -32,7 +32,7 @@ nav img {
 }
 
 .nav-container{
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -71,9 +71,10 @@ main {
     background-image: url(../img/backimg.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 1920px;
-    z-index: -1;
+    width: 100%;
     overflow: hidden;
+    z-index: -1;
+    
     position: relative;
 }
 
@@ -417,7 +418,7 @@ main .road {
 }
 
 .footer-container{
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
 }
 footer {
