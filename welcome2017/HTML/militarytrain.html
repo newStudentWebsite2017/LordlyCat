@@ -3,15 +3,15 @@
 <head>
     <title>军训专题</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/firstpage.css">
-    <link rel="stylesheet" type="text/css" href="./css/militarytrain.css">
-
+    <link rel="stylesheet" type="text/css" href="../CSS/reset.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/firstpage.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/militarytrain.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/train.css">
 </head>
 <body>
     <div class="nav-container">
         <nav>
-            <img src="./img/logo.png">
+            <img src="../img/logo.png">
             <div class="navs">
                 <ul>
                     <li><a href="#" >首页</a></li>
@@ -32,17 +32,17 @@
         <div class="road">
             <div id="contain">
                 <div class="leftbox boxes">     
-                    <img src="./img/CQUPTonhand.png">
+                    <img src="../img/CQUPTonhand.png">
                 </div>
                 <div class="rightbox boxes">
-                    <img src="./img/littlehelper.png">
+                    <img src="../img/littlehelper.png">
                 </div> 
                 <div id="banner">
-                    <img class="people1 person_1" src="./img/flypeople.png">
+                    <img class="people1 person_1" src="../img/flypeople.png">
                     
                     <div class="remaintime-container">
                     <div class="chasedream">
-                        <img src="./img/chasedream.png">
+                        <img src="../img/chasedream.png">
                     </div>
                         <div class="num-container">
                             <div class="nums tens" id="day-ten"></div>
@@ -76,9 +76,50 @@
                     </div>
                     <div class="inshell-container">
                         <div class="inshell-pointer">
-                            <img src="./img/inshell-pointer.png">
+                            <img src="../img/inshell-pointer.png">
                         </div>
-                        <div class="videoplayer-container t2blocks"></div>
+                        <div class="videoplayer-container t2blocks">
+                            <div class="videoWrapper">
+                                <div class="mainVideo">
+                                    <div class="playButton">
+                                        <img src="../img/play.jpg" alt="play">
+                                    </div>
+                                    <video preload autobuffer autoloop loop>
+                                        <source src="../video/AllOfMe.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="controls">
+                                        <div class="play btn"></div>
+                                        <div class="timeBar">
+                                           <div class="time"></div>
+                                           <div class="spot"></div>
+                                           <div class="show"></div>
+                                        </div>
+                                        <div class="fullBtn"></div>
+                                    </div>
+                                </div>
+                                <div class="selectVideowrapper">
+            
+                                    <div class="slide">
+                                        <div class="selectVideo">
+                                            <div class="box one">
+                                                0
+                                            </div>
+                                            <div class="box two">
+                                                1
+                                            </div>
+                                            <div class="box three">
+                                                2
+                                            </div>
+                                            <div class="box four">
+                                                3
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="rightButton button">
+                                        right
+                                    </div> -->
+                                </div>
+                        </div>
                         <div class="troopshow-container t2blocks"></div>
                         <div class="traintips-container t2blocks">
                             <div class="titlest2-container">
@@ -128,8 +169,9 @@
         </footer>
 
     </div>
-    <script type="text/javascript" src="./javascript/index.js"></script>
-    <script type="text/javascript" src="./javascript/remaintime.js"></script>
-    <script type="text/javascript" src="./javascript/militarytrain.js"></script>
+    <script type="text/javascript" src="../javascript/index.js"></script>
+    <script type="text/javascript" src="../javascript/remaintime.js"></script>
+    <script type="text/javascript" src="../javascript/militarytrain.js"></script>
+    <script type="text/javascript" src="../javascript/train.js"></script>
 </body>
 </html>

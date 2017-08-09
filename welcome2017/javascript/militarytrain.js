@@ -36,12 +36,12 @@ function changes(a) {
 
     inshellpointer.style.marginLeft = 85 + a*240 + 'px';
     if (a == 2) {
-        inshellpointer.src = "./img/inshell-pointer-green.png";
-        inshellcontainer.style.backgroundImage = "url(./img/inshell-green.png)";
+        inshellpointer.src = "../img/inshell-pointer-green.png";
+        inshellcontainer.style.backgroundImage = "url(../img/inshell-green.png)";
         
     }else{
-        inshellpointer.src = "./img/inshell-pointer.png";
-        inshellcontainer.style.backgroundImage = "url(./img/inshell.png)";
+        inshellpointer.src = "../img/inshell-pointer.png";
+        inshellcontainer.style.backgroundImage = "url(../img/inshell.png)";
     }
     
 }
