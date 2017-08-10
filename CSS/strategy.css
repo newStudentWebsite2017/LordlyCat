@@ -49,3 +49,441 @@
 /*.btnBox :hover{
 	
 }*/
+
+/*取消多余动画*/
+
+.remaintime-container {
+    animation: cardrop 1s 0;
+}
+
+.chasedream {
+    animation: titlegrow 2s 0;
+}
+
+.flyingbird {
+    animation: birdfly 2.5s 0;
+}
+
+.leftmountains {
+    animation: leftmountainmove 1.5s 0;
+}
+
+.rightmountains {
+    animation: rightmountainmove 1.5s 0;
+}
+
+main .road {
+    animation: roadmove 1s 0;
+}
+
+
+/*主布局*/
+
+.navs ul li:nth-child(1) {
+    background: #fff;
+}
+
+.navs ul li:nth-child(1):hover {
+    background: #a4f087;
+}
+
+.navs ul li:nth-child(3) {
+    background: #a4f087;
+    height: 78px;
+}
+
+main .road {
+    background-image: url(../img/road-military.png);
+    height: 2160px;
+}
+
+.content-container {
+    width: 1220px;
+    height: 1440px;
+    margin: 0 auto;
+    margin-top: 55px;
+    position: relative;
+}
+
+.junxuntitle {
+    background: url(../img/junxuntitle.png) no-repeat center;
+    width: 262px;
+    height: 136px;
+    margin: 0 auto;
+}
+
+.militarytrain-container {
+    width: 100%;
+    height: 1240px;
+    margin: 0 auto;
+    background: url(../img/shell.png) center;
+    overflow: hidden;
+}
+
+.train-titles-container {
+    height: 92px;
+    width: 990px;
+    margin-left: 126px;
+    margin-top: 50px;
+}
+
+.train-titles {
+    width: 215px;
+    height: 92px;
+    margin-right: 26px;
+    background: url(../img/military-title.png);
+    float: left;
+    cursor: pointer;
+}
+
+.train-titles:nth-child(1) {
+    margin-left: 26px;
+}
+
+.train-titles-clicked {
+    background: url(../img/military-title-clicked.png);
+}
+
+.train-titlest1 {
+    width: 200px;
+    margin: 0 auto;
+    margin-left: 12.5px;
+    font-size: 26px;
+    line-height: 82px;
+    color: #fe9d2f;
+    font-style: normal;
+    text-align: center;
+    font-family: 微软雅黑;
+}
+
+.titlest1-clicked {
+    color: #fff;
+}
+
+.inshell-container {
+    width: 960px;
+    height: 1000px;
+    margin-left: 150px;
+    margin-top: 5px;
+    background: url(../img/inshell.png) no-repeat;
+    position: relative;
+}
+
+.inshell-pointer img {
+    margin-top: 5px;
+    margin-left: 85px;
+    transition: .5s ease;
+}
+
+.videoplayer-container {
+    width: 864px;
+    height: 770px;
+    left: 48px;
+    top: 99px;
+    background: #233;
+    position: absolute;
+}
+
+.troopshow-container {
+    width: 864px;
+    height: 890px;
+    left: 48px;
+    top: 55px;
+    position: absolute;
+    background: #66ccff;
+    visibility: hidden;
+}
+
+.traintips-container {
+
+    visibility: hidden;
+    width: 760px;
+    left: 100px;
+    top: 46px;
+    position: absolute;
+}
+
+.t2blocks {
+    transition: .3s;
+}
+
+.titlest2-container {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.titlest2 {
+    width: 90px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 46px;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    color: #50b102;
+    margin: 0 80px;
+}
+
+.titlest2:nth-child(1) {
+    margin-left: 90px;
+}
+
+.titlest2-clicked {
+    color: #ff8d13;
+}
+
+.traintips-roller {
+    width: 85px;
+    height: 6px;
+    border-radius: 3px;
+    background: #ff8d13;
+    position: absolute;
+    transition: .3s;
+    left: 93px;
+}
+
+.traintips-main-container {
+    width: 840px;
+    height: 800px;
+    margin-top: 20px;
+    overflow: scroll;
+    transform: rotate(-1deg);
+}
+
+.traintips-main-container .fa {
+    transform: rotate(0.9deg);
+    margin-left: 5px;
+    word-break: break-all;
+}
+
+.traintips {
+    width: 780px;
+    height: 760px;
+    position: absolute;
+    transform: rotate(1deg);
+    font-size: 50px;
+    line-height: 50px;
+}
+
+
+.havescroll::-webkit-scrollbar {
+    width: 12px;
+    height: 0px;
+}
+
+.havescroll::-webkit-scrollbar-button {
+    display: none;
+}
+
+.havescroll::-webkit-scrollbar-track {
+    background: url(../img/scroller-outtrack.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.havescroll::-webkit-scrollbar-track-piece {
+    display: none;
+}
+
+.havescroll::-webkit-scrollbar-thumb {
+    background: url(../img/scroller-insidetrack.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.havescroll::-webkit-scrollbar-corner {
+    display: none;
+}
+
+.havescroll::-webkit-resizer {
+    display: none;
+}
+
+.traintips-main-container p {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.songrecommand-container {
+    width: 680px;
+    height: 780px;
+    margin: 0 auto;
+    margin-top: 58px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.lrc-container {
+    width: 686px;
+    height: 570px;
+    margin: 0 auto;
+    overflow: scroll;
+    margin-bottom: 10px;
+}
+
+.song-progress-container {
+    width: 700px;
+    height: 115px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.song-controller {
+    width: 700px;
+    height: 80px;
+    position: relative;
+}
+
+.maincontroller-container {
+    width: 310px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.controller {
+    width: 60px;
+    height: 60px;
+    background: url(../img/play.png);
+    cursor: pointer;
+}
+
+.btn-before {
+    float: left;
+    background: url(../img/last.png);
+}
+
+.btn-next {
+    float: left;
+    margin-left: 65px;
+    background: url(../img/next.png);
+}
+
+.btn-play {
+    float: left;
+    margin-left: 65px;
+}
+
+.btn-pause {
+    float: left;
+    margin-left: 65px;
+    background: url(../img/pause.png);
+}
+
+.song-progress-limit {
+    width: 590px;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.song-progress {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.progress-timer {
+    width: 80px;
+    height: 16px;
+    font-size: 16px;
+    margin-top: -17px;
+    margin-right: 15px;
+    font-family: 微软雅黑;
+    color: #ffb822;
+    float: right;
+}
+
+progress {
+    background: #d2f0b8;
+    color: #ffc853;
+}
+
+progress::-moz-progress-bar {
+    background: #ffc853;
+}
+
+progress::-webkit-progress-bar {
+    background: #d2f0b8;
+}
+
+progress::-webkit-progress-value {
+    background: #ffc853;
+}
+
+.progress-point {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -5px;
+}
+
+.song-vol {
+    width: 170px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+.vol-icon {
+    width: 34px;
+    height: 30px;
+    background: url(../img/vol-stable.png);
+    position: absolute;
+    top: 3px;
+    margin-left: 30px;
+}
+
+.vol-progress-limit {
+    width: 84px;
+    height: 8px;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    overflow: hidden;
+    transition: 1s;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.vol-progress {
+
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    top: 16px;
+    right: 30px;
+}
+
+.vol-point {
+    left: -5px;
+}
+
+.vol-point2 {
+
+    left: 80px;
+    top: 10px;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.vol-icon-active {
+    background: url(../img/vol-active.png);
+}
+
+.lrc-text {
+    margin: 0 auto;
+    text-align: center;
+    color: #ffa22a;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    margin-bottom: 18px;
+}
