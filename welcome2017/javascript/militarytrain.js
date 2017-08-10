@@ -5,29 +5,7 @@ var inshellpointer = document.querySelector('.inshell-pointer img');
 var inshellcontainer  = document.querySelector('.inshell-container');
 var titlest2 = document.querySelectorAll('.titlest2');
 var titlest2roller = document.querySelector('.traintips-roller');
-let volicon = document.querySelector('.vol-icon');
-let volbar = document.querySelector('.vol-progress-limit');
-let volpt = document.querySelector('.vol-point2');
-let songvol = document.querySelector('.song-vol');
 
-songvol.onmouseover = () => {
-    volicon.className = "vol-icon vol-icon-active";
-
-    volbar.style.visibility = "visible";
-    volbar.style.opacity = "1";
-
-    volpt.style.visibility = "visible";
-    volpt.style.opacity = "1";
-}
-songvol.onmouseleave = () => {
-    volicon.className = "vol-icon";
-
-    volbar.style.visibility = "hidden";
-    volbar.style.opacity = "0";
-
-    volpt.style.visibility = "hidden";
-    volpt.style.opacity = "0";
-}
 
 function t2changes(a) {
     for (var i = 0; i < titlest2.length; i++){
@@ -44,8 +22,8 @@ function changes(a) {
         titlest1[i].className = "train-titlest1";
     
         blockst2[i].style.opacity = "0";
-        blockst2[i].style.visibility = "hidden";
-        
+        blockst2[i].style.visiblity = "hidden";
+        blockst2[i].style.display = "none";
     }
     
     titles[a].className = "train-titles train-titles-clicked";
@@ -53,7 +31,7 @@ function changes(a) {
     
     blockst2[a].style.opacity = "1";
     blockst2[a].style.visibility = "visible";
-    
+    blockst2[a].style.display = "block";
 
 
     inshellpointer.style.marginLeft = 85 + a*240 + 'px';
